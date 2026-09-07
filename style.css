@@ -1,0 +1,26 @@
+*{
+   font-family: "Inter", sans-serif; 
+}
+.inter-text {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+
+
+@keyframes gradient-x {
+  0%, 100% {
+    background-size: 200% 200%;
+    background-position: left center;
+  }
+  50% {
+    background-size: 200% 200%;
+    background-position: right center;
+  }
+}
+
+.animate-gradient-x {
+  animation: gradient-x 3s ease infinite;
+}
+
+@import "tailwindcss"
